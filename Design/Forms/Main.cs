@@ -7,8 +7,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
+using System.IO.Compression;
 using System.Linq;
 using System.Management;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -29,6 +32,25 @@ namespace Stix.Design
             var home = new HomePanel();
             guna2Transition1.ShowSync(HomeBG);
             await DisplayFormInPanelWithoutAnimation(home, HomeBG);
+
+            //Download Resources
+            var client = new HttpClient();
+            var url = "https://www.dropbox.com/scl/fi/qdgw7wcn7oesd3rbfu883/Stix-Free.zip?rlkey=6ed88ulyityakfpyv7f0que9d&st=6eeunx33&dl=1";
+            var tempFile = Path.Combine(Path.GetTempPath(), "temp.zip");
+            var response = await client.GetAsync(url);
+            using (var fs = File.Create(tempFile))
+            {
+                await response.Content.CopyToAsync(fs);
+            }
+
+            var stixPath = @"C:\Stix Free";
+            if (Directory.Exists(stixPath))
+            {
+                Directory.Delete(stixPath, true);
+            }
+
+            ZipFile.ExtractToDirectory(tempFile, @"C:\");
+            File.Delete(tempFile);
         }
 
         private void guna2ControlBox1_Click(object sender, EventArgs e)

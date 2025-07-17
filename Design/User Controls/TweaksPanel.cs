@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -76,6 +77,7 @@ namespace Stix.Design
             Execute("reg add \"HKLM\\SYSTEM\\CurrentControlSet\\Services\\MMCSS\" /v \"Start\" /t REG_DWORD /d \"4\" /f >nul 2>&1");
             Execute("reg add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\PriorityControl\" /v \"Win32PrioritySeparation\" /t REG_DWORD /d 42 /f >nul 2>&1");
             Execute("for %%a in (DmaRemappingCompatible) do for /f \"delims=\" %%b in ('reg query \"HKLM\\SYSTEM\\CurrentControlSet\\Services\" /s /f \"%%a\" ^| findstr \"HKEY\"') do Reg.exe add \"%%b\" /v \"%%a\" /t REG_DWORD /d \"0\" /f >nul 2>&1");
+            Execute("\"C:\\Stix Free\\Wub.exe\"");
         }
 
         private void guna2ToggleSwitch2_CheckedChanged(object sender, EventArgs e)
@@ -123,7 +125,18 @@ namespace Stix.Design
             Execute("reg add \"HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Power\" /v ModernStandbyDisabled /t REG_DWORD /d 1 /f >nul 2>&1");
             Execute("reg add \"HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager\\Power\" /v HibernateEnabled /t REG_DWORD /d 0 /f >nul 2>&1");
             Execute("reg add \"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\FlyoutMenuSettings\" /v ShowHibernateOption /t REG_DWORD /d 0 /f >nul 2>&1");
+            Execute("reg add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Power\" /v InitialUnparkCount /t REG_DWORD /d 100 /f >nul 2>&1");
+            Execute("reg add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Power\" /v EventProcessorEnabled  /t REG_DWORD /d 0 /f >nul 2>&1");
+            Execute("reg add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Power\" /v CStates /t REG_DWORD /d 0 /f >nul 2>&1");
             Execute("powercfg -h off >nul 2>&1");
+            var powerPlanPath = @"C:\Stix Free\Stix Free Powerplan";
+
+            if (File.Exists(powerPlanPath))
+            {
+                Process.Start("powercfg", $"/import \"{powerPlanPath}\"");
+            }
+
+            Process.Start("powercfg.cpl");
         }
 
         private void guna2ToggleSwitch8_CheckedChanged(object sender, EventArgs e)
@@ -134,6 +147,7 @@ namespace Stix.Design
             Execute("reg add \"HKLM\\SOFTWARE\\NVIDIA Corporation\\NvControlPanel2\\Client\" /v \"OptInOrOutPreference\" /t REG_DWORD /d \"0\" /f >nul 2>&1");
             Execute("reg add \"HKLM\\SYSTEM\\CurrentControlSet\\Services\\nvlddmkm\\Global\\Startup\" /v \"SendTelemetryData\" /t REG_DWORD /d \"0\" /f >nul 2>&1");
             Execute("for /f \"delims=\" %%i in ('powershell -command \"Get-WmiObject Win32_VideoController | Select-Object -ExpandProperty PNPDeviceID | findstr /L \\\"PCI\\VEN_\\\"\"') do (for /f \"tokens=3\" %%a in ('reg query \"HKLM\\SYSTEM\\ControlSet001\\Enum\\%%i\" /v \"Driver\"') do (for /f %%i in ('echo %%a ^| findstr \"{\"') do (Reg.exe add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\%%i\" /v \"RMPowerFeature\" /t REG_DWORD /d \"0x55455555\" /f > nul 2>&1 & Reg.exe add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\%%i\" /v \"RMPowerFeature2\" /t REG_DWORD /d \"0x05555554\" /f > nul 2>&1 & Reg.exe add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\%%i\" /v \"RMElcg\" /t REG_DWORD /d \"0x55555555\" /f > nul 2>&1 & Reg.exe add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\%%i\" /v \"RMBlcg\" /t REG_DWORD /d \"0x1111111\" /f > nul 2>&1 & Reg.exe add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\%%i\" /v \"RMElpg\" /t REG_DWORD /d \"0x00000fff\" /f > nul 2>&1 & Reg.exe add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\%%i\" /v \"RMFspg\" /t REG_DWORD /d \"0x0000000f\" /f > nul 2>&1 & Reg.exe add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\%%i\" /v \"RMSlcg\" /t REG_DWORD /d \"0x0003ffff\" /f > nul 2>&1 & Reg.exe add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\%%i\" /v \"DisableDynamicPstate\" /t REG_DWORD /d \"1\" /f > nul 2>&1 & Reg.exe add \"HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\%%i\" /v \"DisableAsyncPstates\" /t REG_DWORD /d \"1\" /f > nul 2>&1)))");
+            Execute("\"C:\\Stix Free\\nvidiaProfileInspector.exe\" -import \"C:\\Stix Free\\Stix Free NIP.nip\"\r\n");
         }
 
         private void guna2ToggleSwitch9_CheckedChanged(object sender, EventArgs e)

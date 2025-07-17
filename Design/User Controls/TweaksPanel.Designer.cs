@@ -122,7 +122,6 @@
             this.TweaksScroll.ScrollbarSize = 19;
             this.TweaksScroll.Size = new System.Drawing.Size(21, 661);
             this.TweaksScroll.TabIndex = 0;
-            //this.TweaksScroll.Scroll += new System.Windows.Forms.ScrollEventHandler(this.TweaksScroll_Scroll);
             // 
             // TweaksBackPanel
             // 
@@ -140,9 +139,9 @@
             this.TweaksBackPanel.Controls.Add(this.guna2Panel2);
             this.TweaksBackPanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
             this.TweaksBackPanel.Location = new System.Drawing.Point(0, 0);
-            this.TweaksBackPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.TweaksBackPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.TweaksBackPanel.Name = "TweaksBackPanel";
-            this.TweaksBackPanel.Size = new System.Drawing.Size(817, 537);
+            this.TweaksBackPanel.Size = new System.Drawing.Size(1089, 661);
             this.TweaksBackPanel.TabIndex = 22;
             this.TweaksBackPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.TweaksBackPanel_Paint);
             // 
@@ -159,10 +158,10 @@
             this.guna2Panel1.Controls.Add(this.label7);
             this.guna2Panel1.Controls.Add(this.label4);
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.guna2Panel1.Location = new System.Drawing.Point(288, 25);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel1.Location = new System.Drawing.Point(384, 31);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(232, 141);
+            this.guna2Panel1.Size = new System.Drawing.Size(309, 174);
             this.guna2Panel1.TabIndex = 12;
             // 
             // guna2PictureBox1
@@ -170,9 +169,10 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(18, 110);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(24, 135);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(17, 17);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(23, 21);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 28;
             this.guna2PictureBox1.TabStop = false;
@@ -184,10 +184,9 @@
             this.label40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label40.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(39, 108);
-            this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label40.Location = new System.Drawing.Point(52, 133);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(84, 23);
+            this.label40.Size = new System.Drawing.Size(107, 30);
             this.label40.TabIndex = 29;
             this.label40.Text = "Win 11 Only";
             // 
@@ -197,10 +196,9 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label5.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(17, 11);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(23, 14);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(150, 30);
+            this.label5.Size = new System.Drawing.Size(196, 39);
             this.label5.TabIndex = 21;
             this.label5.Text = "Optimize Kernel";
             // 
@@ -208,9 +206,10 @@
             // 
             this.guna2Separator2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.guna2Separator2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2Separator2.Location = new System.Drawing.Point(14, 95);
+            this.guna2Separator2.Location = new System.Drawing.Point(19, 117);
+            this.guna2Separator2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Separator2.Name = "guna2Separator2";
-            this.guna2Separator2.Size = new System.Drawing.Size(200, 10);
+            this.guna2Separator2.Size = new System.Drawing.Size(267, 12);
             this.guna2Separator2.TabIndex = 20;
             // 
             // guna2ToggleSwitch2
@@ -222,9 +221,10 @@
             this.guna2ToggleSwitch2.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch2.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch2.Location = new System.Drawing.Point(178, 109);
+            this.guna2ToggleSwitch2.Location = new System.Drawing.Point(237, 134);
+            this.guna2ToggleSwitch2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ToggleSwitch2.Name = "guna2ToggleSwitch2";
-            this.guna2ToggleSwitch2.Size = new System.Drawing.Size(35, 20);
+            this.guna2ToggleSwitch2.Size = new System.Drawing.Size(47, 25);
             this.guna2ToggleSwitch2.TabIndex = 19;
             this.guna2ToggleSwitch2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2ToggleSwitch2.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -238,10 +238,9 @@
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label7.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label7.Location = new System.Drawing.Point(10, 56);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(13, 69);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(185, 23);
+            this.label7.Size = new System.Drawing.Size(251, 30);
             this.label7.TabIndex = 23;
             this.label7.Text = "Made to The Core of The OS";
             // 
@@ -251,10 +250,9 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label4.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label4.Location = new System.Drawing.Point(10, 39);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(13, 48);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(189, 23);
+            this.label4.Size = new System.Drawing.Size(249, 30);
             this.label4.TabIndex = 22;
             this.label4.Text = "Kernel Tweaks are Changes";
             // 
@@ -270,19 +268,20 @@
             this.guna2Panel5.Controls.Add(this.label2);
             this.guna2Panel5.Controls.Add(this.label3);
             this.guna2Panel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.guna2Panel5.Location = new System.Drawing.Point(41, 25);
-            this.guna2Panel5.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel5.Location = new System.Drawing.Point(55, 31);
+            this.guna2Panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.Size = new System.Drawing.Size(232, 141);
+            this.guna2Panel5.Size = new System.Drawing.Size(309, 174);
             this.guna2Panel5.TabIndex = 11;
             // 
             // guna2Separator1
             // 
             this.guna2Separator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.guna2Separator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2Separator1.Location = new System.Drawing.Point(14, 95);
+            this.guna2Separator1.Location = new System.Drawing.Point(19, 117);
+            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(200, 10);
+            this.guna2Separator1.Size = new System.Drawing.Size(267, 12);
             this.guna2Separator1.TabIndex = 19;
             // 
             // guna2ToggleSwitch1
@@ -294,9 +293,10 @@
             this.guna2ToggleSwitch1.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch1.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch1.Location = new System.Drawing.Point(178, 109);
+            this.guna2ToggleSwitch1.Location = new System.Drawing.Point(237, 134);
+            this.guna2ToggleSwitch1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ToggleSwitch1.Name = "guna2ToggleSwitch1";
-            this.guna2ToggleSwitch1.Size = new System.Drawing.Size(35, 20);
+            this.guna2ToggleSwitch1.Size = new System.Drawing.Size(47, 25);
             this.guna2ToggleSwitch1.TabIndex = 18;
             this.guna2ToggleSwitch1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2ToggleSwitch1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -310,10 +310,9 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label1.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label1.Location = new System.Drawing.Point(10, 39);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(13, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(197, 23);
+            this.label1.Size = new System.Drawing.Size(258, 30);
             this.label1.TabIndex = 14;
             this.label1.Text = "Optimizing Windows Settings";
             // 
@@ -323,10 +322,9 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label6.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(17, 11);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(23, 14);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(176, 30);
+            this.label6.Size = new System.Drawing.Size(227, 39);
             this.label6.TabIndex = 13;
             this.label6.Text = "Optimize Windows";
             // 
@@ -336,10 +334,9 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label2.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label2.Location = new System.Drawing.Point(10, 56);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(13, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(210, 23);
+            this.label2.Size = new System.Drawing.Size(278, 30);
             this.label2.TabIndex = 15;
             this.label2.Text = "Will Range From Power Savings";
             // 
@@ -349,10 +346,9 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label3.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label3.Location = new System.Drawing.Point(10, 74);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(13, 91);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 23);
+            this.label3.Size = new System.Drawing.Size(147, 30);
             this.label3.TabIndex = 16;
             this.label3.Text = "to Visual Effects";
             // 
@@ -368,12 +364,11 @@
             this.guna2Panel7.Controls.Add(this.guna2ToggleSwitch9);
             this.guna2Panel7.Controls.Add(this.label35);
             this.guna2Panel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.guna2Panel7.Location = new System.Drawing.Point(535, 338);
-            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel7.Location = new System.Drawing.Point(713, 416);
+            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.Size = new System.Drawing.Size(232, 141);
+            this.guna2Panel7.Size = new System.Drawing.Size(309, 174);
             this.guna2Panel7.TabIndex = 8;
-            //this.guna2Panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel7_Paint);
             // 
             // label33
             // 
@@ -381,10 +376,9 @@
             this.label33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label33.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label33.Location = new System.Drawing.Point(10, 39);
-            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label33.Location = new System.Drawing.Point(13, 48);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(218, 23);
+            this.label33.Size = new System.Drawing.Size(286, 30);
             this.label33.TabIndex = 22;
             this.label33.Text = "Radeon GPU Tweaks Will Disable";
             // 
@@ -394,10 +388,9 @@
             this.label34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label34.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(17, 11);
-            this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label34.Location = new System.Drawing.Point(23, 14);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(202, 30);
+            this.label34.Size = new System.Drawing.Size(262, 39);
             this.label34.TabIndex = 21;
             this.label34.Text = "Optimize Radeon GPU";
             // 
@@ -407,10 +400,9 @@
             this.label36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label36.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label36.Location = new System.Drawing.Point(10, 74);
-            this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label36.Location = new System.Drawing.Point(13, 91);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(221, 23);
+            this.label36.Size = new System.Drawing.Size(291, 30);
             this.label36.TabIndex = 24;
             this.label36.Text = "Tracking Improving Performance";
             // 
@@ -418,9 +410,10 @@
             // 
             this.guna2Separator9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.guna2Separator9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2Separator9.Location = new System.Drawing.Point(14, 95);
+            this.guna2Separator9.Location = new System.Drawing.Point(19, 117);
+            this.guna2Separator9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Separator9.Name = "guna2Separator9";
-            this.guna2Separator9.Size = new System.Drawing.Size(200, 10);
+            this.guna2Separator9.Size = new System.Drawing.Size(267, 12);
             this.guna2Separator9.TabIndex = 20;
             // 
             // guna2ToggleSwitch9
@@ -432,9 +425,10 @@
             this.guna2ToggleSwitch9.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch9.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch9.Location = new System.Drawing.Point(178, 109);
+            this.guna2ToggleSwitch9.Location = new System.Drawing.Point(237, 134);
+            this.guna2ToggleSwitch9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ToggleSwitch9.Name = "guna2ToggleSwitch9";
-            this.guna2ToggleSwitch9.Size = new System.Drawing.Size(35, 20);
+            this.guna2ToggleSwitch9.Size = new System.Drawing.Size(47, 25);
             this.guna2ToggleSwitch9.TabIndex = 19;
             this.guna2ToggleSwitch9.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2ToggleSwitch9.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -448,10 +442,9 @@
             this.label35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label35.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label35.Location = new System.Drawing.Point(10, 56);
-            this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label35.Location = new System.Drawing.Point(13, 69);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(182, 23);
+            this.label35.Size = new System.Drawing.Size(240, 30);
             this.label35.TabIndex = 23;
             this.label35.Text = "Different Powergating and ";
             // 
@@ -467,12 +460,11 @@
             this.guna2Panel8.Controls.Add(this.guna2ToggleSwitch8);
             this.guna2Panel8.Controls.Add(this.label31);
             this.guna2Panel8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.guna2Panel8.Location = new System.Drawing.Point(288, 338);
-            this.guna2Panel8.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel8.Location = new System.Drawing.Point(384, 416);
+            this.guna2Panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel8.Name = "guna2Panel8";
-            this.guna2Panel8.Size = new System.Drawing.Size(232, 141);
+            this.guna2Panel8.Size = new System.Drawing.Size(309, 174);
             this.guna2Panel8.TabIndex = 7;
-            //this.guna2Panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel8_Paint);
             // 
             // label29
             // 
@@ -480,10 +472,9 @@
             this.label29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label29.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label29.Location = new System.Drawing.Point(10, 39);
-            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label29.Location = new System.Drawing.Point(13, 48);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(208, 23);
+            this.label29.Size = new System.Drawing.Size(273, 30);
             this.label29.TabIndex = 22;
             this.label29.Text = "Nvidia GPU Tweaks Will Disable";
             // 
@@ -493,10 +484,9 @@
             this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label30.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(17, 11);
-            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label30.Location = new System.Drawing.Point(23, 14);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(193, 30);
+            this.label30.Size = new System.Drawing.Size(248, 39);
             this.label30.TabIndex = 21;
             this.label30.Text = "Optimize Nvidia GPU";
             // 
@@ -506,10 +496,9 @@
             this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label32.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label32.Location = new System.Drawing.Point(10, 74);
-            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label32.Location = new System.Drawing.Point(13, 91);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(221, 23);
+            this.label32.Size = new System.Drawing.Size(291, 30);
             this.label32.TabIndex = 24;
             this.label32.Text = "Tracking Improving Performance";
             // 
@@ -517,9 +506,10 @@
             // 
             this.guna2Separator8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.guna2Separator8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2Separator8.Location = new System.Drawing.Point(14, 95);
+            this.guna2Separator8.Location = new System.Drawing.Point(19, 117);
+            this.guna2Separator8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Separator8.Name = "guna2Separator8";
-            this.guna2Separator8.Size = new System.Drawing.Size(200, 10);
+            this.guna2Separator8.Size = new System.Drawing.Size(267, 12);
             this.guna2Separator8.TabIndex = 20;
             // 
             // guna2ToggleSwitch8
@@ -531,9 +521,10 @@
             this.guna2ToggleSwitch8.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch8.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch8.Location = new System.Drawing.Point(178, 109);
+            this.guna2ToggleSwitch8.Location = new System.Drawing.Point(237, 134);
+            this.guna2ToggleSwitch8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ToggleSwitch8.Name = "guna2ToggleSwitch8";
-            this.guna2ToggleSwitch8.Size = new System.Drawing.Size(35, 20);
+            this.guna2ToggleSwitch8.Size = new System.Drawing.Size(47, 25);
             this.guna2ToggleSwitch8.TabIndex = 19;
             this.guna2ToggleSwitch8.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2ToggleSwitch8.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -547,10 +538,9 @@
             this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label31.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label31.Location = new System.Drawing.Point(10, 56);
-            this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label31.Location = new System.Drawing.Point(13, 69);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(179, 23);
+            this.label31.Size = new System.Drawing.Size(235, 30);
             this.label31.TabIndex = 23;
             this.label31.Text = "Different Powergating and";
             // 
@@ -566,12 +556,11 @@
             this.guna2Panel9.Controls.Add(this.guna2ToggleSwitch7);
             this.guna2Panel9.Controls.Add(this.label27);
             this.guna2Panel9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.guna2Panel9.Location = new System.Drawing.Point(41, 338);
-            this.guna2Panel9.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel9.Location = new System.Drawing.Point(55, 416);
+            this.guna2Panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel9.Name = "guna2Panel9";
-            this.guna2Panel9.Size = new System.Drawing.Size(232, 141);
+            this.guna2Panel9.Size = new System.Drawing.Size(309, 174);
             this.guna2Panel9.TabIndex = 6;
-            //this.guna2Panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel9_Paint);
             // 
             // label25
             // 
@@ -579,10 +568,9 @@
             this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label25.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label25.Location = new System.Drawing.Point(10, 39);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Location = new System.Drawing.Point(13, 48);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(194, 23);
+            this.label25.Size = new System.Drawing.Size(259, 30);
             this.label25.TabIndex = 22;
             this.label25.Text = "This Will Disable Some Power";
             // 
@@ -592,10 +580,9 @@
             this.label26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label26.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(17, 11);
-            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label26.Location = new System.Drawing.Point(23, 14);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(203, 30);
+            this.label26.Size = new System.Drawing.Size(264, 39);
             this.label26.TabIndex = 21;
             this.label26.Text = "Adjust Power Settings";
             // 
@@ -605,10 +592,9 @@
             this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label28.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label28.Location = new System.Drawing.Point(10, 74);
-            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label28.Location = new System.Drawing.Point(13, 91);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(179, 23);
+            this.label28.Size = new System.Drawing.Size(238, 30);
             this.label28.TabIndex = 24;
             this.label28.Text = "and Improve Performance";
             // 
@@ -616,9 +602,10 @@
             // 
             this.guna2Separator7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.guna2Separator7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2Separator7.Location = new System.Drawing.Point(14, 95);
+            this.guna2Separator7.Location = new System.Drawing.Point(19, 117);
+            this.guna2Separator7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Separator7.Name = "guna2Separator7";
-            this.guna2Separator7.Size = new System.Drawing.Size(200, 10);
+            this.guna2Separator7.Size = new System.Drawing.Size(267, 12);
             this.guna2Separator7.TabIndex = 20;
             // 
             // guna2ToggleSwitch7
@@ -630,9 +617,10 @@
             this.guna2ToggleSwitch7.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch7.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch7.Location = new System.Drawing.Point(178, 109);
+            this.guna2ToggleSwitch7.Location = new System.Drawing.Point(237, 134);
+            this.guna2ToggleSwitch7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ToggleSwitch7.Name = "guna2ToggleSwitch7";
-            this.guna2ToggleSwitch7.Size = new System.Drawing.Size(35, 20);
+            this.guna2ToggleSwitch7.Size = new System.Drawing.Size(47, 25);
             this.guna2ToggleSwitch7.TabIndex = 19;
             this.guna2ToggleSwitch7.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2ToggleSwitch7.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -646,10 +634,9 @@
             this.label27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label27.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label27.Location = new System.Drawing.Point(10, 56);
-            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label27.Location = new System.Drawing.Point(13, 69);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(219, 23);
+            this.label27.Size = new System.Drawing.Size(289, 30);
             this.label27.TabIndex = 23;
             this.label27.Text = "Saving Features Within Windows";
             // 
@@ -665,12 +652,11 @@
             this.guna2Panel3.Controls.Add(this.guna2Separator5);
             this.guna2Panel3.Controls.Add(this.guna2ToggleSwitch6);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(535, 182);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel3.Location = new System.Drawing.Point(713, 224);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(232, 141);
+            this.guna2Panel3.Size = new System.Drawing.Size(309, 174);
             this.guna2Panel3.TabIndex = 5;
-            //this.guna2Panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel3_Paint);
             // 
             // label13
             // 
@@ -678,10 +664,9 @@
             this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label13.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label13.Location = new System.Drawing.Point(10, 39);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Location = new System.Drawing.Point(13, 48);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(198, 23);
+            this.label13.Size = new System.Drawing.Size(261, 30);
             this.label13.TabIndex = 22;
             this.label13.Text = "Optimizing Your Storage Disk ";
             // 
@@ -691,10 +676,9 @@
             this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label14.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(17, 11);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Location = new System.Drawing.Point(23, 14);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(214, 30);
+            this.label14.Size = new System.Drawing.Size(278, 39);
             this.label14.TabIndex = 21;
             this.label14.Text = "Optimize Storage Disks";
             // 
@@ -704,10 +688,9 @@
             this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label15.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label15.Location = new System.Drawing.Point(10, 56);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Location = new System.Drawing.Point(13, 69);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(204, 23);
+            this.label15.Size = new System.Drawing.Size(272, 30);
             this.label15.TabIndex = 23;
             this.label15.Text = "Will Improve Performance And";
             // 
@@ -717,10 +700,9 @@
             this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label16.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label16.Location = new System.Drawing.Point(10, 74);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Location = new System.Drawing.Point(13, 91);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(161, 23);
+            this.label16.Size = new System.Drawing.Size(212, 30);
             this.label16.TabIndex = 24;
             this.label16.Text = "Disable Useless Checks";
             // 
@@ -728,9 +710,10 @@
             // 
             this.guna2Separator5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.guna2Separator5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2Separator5.Location = new System.Drawing.Point(14, 95);
+            this.guna2Separator5.Location = new System.Drawing.Point(19, 117);
+            this.guna2Separator5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Separator5.Name = "guna2Separator5";
-            this.guna2Separator5.Size = new System.Drawing.Size(200, 10);
+            this.guna2Separator5.Size = new System.Drawing.Size(267, 12);
             this.guna2Separator5.TabIndex = 20;
             // 
             // guna2ToggleSwitch6
@@ -742,9 +725,10 @@
             this.guna2ToggleSwitch6.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch6.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch6.Location = new System.Drawing.Point(178, 109);
+            this.guna2ToggleSwitch6.Location = new System.Drawing.Point(237, 134);
+            this.guna2ToggleSwitch6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ToggleSwitch6.Name = "guna2ToggleSwitch6";
-            this.guna2ToggleSwitch6.Size = new System.Drawing.Size(35, 20);
+            this.guna2ToggleSwitch6.Size = new System.Drawing.Size(47, 25);
             this.guna2ToggleSwitch6.TabIndex = 19;
             this.guna2ToggleSwitch6.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2ToggleSwitch6.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -757,19 +741,18 @@
             this.guna2Panel4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.guna2Panel4.BorderRadius = 4;
             this.guna2Panel4.BorderThickness = 1;
+            this.guna2Panel4.Controls.Add(this.label20);
+            this.guna2Panel4.Controls.Add(this.label19);
             this.guna2Panel4.Controls.Add(this.label17);
             this.guna2Panel4.Controls.Add(this.label18);
-            this.guna2Panel4.Controls.Add(this.label19);
-            this.guna2Panel4.Controls.Add(this.label20);
             this.guna2Panel4.Controls.Add(this.guna2Separator4);
             this.guna2Panel4.Controls.Add(this.guna2ToggleSwitch5);
             this.guna2Panel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.guna2Panel4.Location = new System.Drawing.Point(288, 182);
-            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel4.Location = new System.Drawing.Point(384, 224);
+            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(232, 141);
+            this.guna2Panel4.Size = new System.Drawing.Size(309, 174);
             this.guna2Panel4.TabIndex = 4;
-            //this.guna2Panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel4_Paint);
             // 
             // label17
             // 
@@ -777,10 +760,9 @@
             this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label17.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label17.Location = new System.Drawing.Point(10, 39);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Location = new System.Drawing.Point(13, 48);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(211, 23);
+            this.label17.Size = new System.Drawing.Size(277, 30);
             this.label17.TabIndex = 22;
             this.label17.Text = "This Forces Windows to Update";
             // 
@@ -790,10 +772,9 @@
             this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label18.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(17, 11);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label18.Location = new System.Drawing.Point(23, 14);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(152, 30);
+            this.label18.Size = new System.Drawing.Size(201, 39);
             this.label18.TabIndex = 21;
             this.label18.Text = "Setup TSC + TSC";
             // 
@@ -803,10 +784,9 @@
             this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label19.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label19.Location = new System.Drawing.Point(10, 56);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Location = new System.Drawing.Point(13, 69);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(200, 23);
+            this.label19.Size = new System.Drawing.Size(270, 30);
             this.label19.TabIndex = 23;
             this.label19.Text = "Your Systems Timer Every 1ms";
             // 
@@ -816,10 +796,9 @@
             this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label20.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label20.Location = new System.Drawing.Point(10, 74);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label20.Location = new System.Drawing.Point(13, 91);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(172, 23);
+            this.label20.Size = new System.Drawing.Size(233, 30);
             this.label20.TabIndex = 24;
             this.label20.Text = "Instead of Every 15.625ms";
             // 
@@ -827,9 +806,10 @@
             // 
             this.guna2Separator4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.guna2Separator4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2Separator4.Location = new System.Drawing.Point(14, 95);
+            this.guna2Separator4.Location = new System.Drawing.Point(19, 117);
+            this.guna2Separator4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Separator4.Name = "guna2Separator4";
-            this.guna2Separator4.Size = new System.Drawing.Size(200, 10);
+            this.guna2Separator4.Size = new System.Drawing.Size(267, 12);
             this.guna2Separator4.TabIndex = 20;
             // 
             // guna2ToggleSwitch5
@@ -841,9 +821,10 @@
             this.guna2ToggleSwitch5.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch5.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch5.Location = new System.Drawing.Point(178, 109);
+            this.guna2ToggleSwitch5.Location = new System.Drawing.Point(237, 134);
+            this.guna2ToggleSwitch5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ToggleSwitch5.Name = "guna2ToggleSwitch5";
-            this.guna2ToggleSwitch5.Size = new System.Drawing.Size(35, 20);
+            this.guna2ToggleSwitch5.Size = new System.Drawing.Size(47, 25);
             this.guna2ToggleSwitch5.TabIndex = 19;
             this.guna2ToggleSwitch5.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2ToggleSwitch5.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -863,12 +844,11 @@
             this.guna2Panel6.Controls.Add(this.guna2Separator6);
             this.guna2Panel6.Controls.Add(this.guna2ToggleSwitch4);
             this.guna2Panel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.guna2Panel6.Location = new System.Drawing.Point(41, 182);
-            this.guna2Panel6.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel6.Location = new System.Drawing.Point(55, 224);
+            this.guna2Panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel6.Name = "guna2Panel6";
-            this.guna2Panel6.Size = new System.Drawing.Size(232, 141);
+            this.guna2Panel6.Size = new System.Drawing.Size(309, 174);
             this.guna2Panel6.TabIndex = 3;
-            //this.guna2Panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel6_Paint);
             // 
             // label21
             // 
@@ -876,10 +856,9 @@
             this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label21.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label21.Location = new System.Drawing.Point(10, 39);
-            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label21.Location = new System.Drawing.Point(13, 48);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(162, 23);
+            this.label21.Size = new System.Drawing.Size(214, 30);
             this.label21.TabIndex = 22;
             this.label21.Text = "HAGS Allows The GPU to";
             // 
@@ -889,10 +868,9 @@
             this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label22.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(17, 11);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label22.Location = new System.Drawing.Point(23, 14);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(124, 30);
+            this.label22.Size = new System.Drawing.Size(162, 39);
             this.label22.TabIndex = 21;
             this.label22.Text = "Enable HAGS";
             // 
@@ -902,10 +880,9 @@
             this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label23.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label23.Location = new System.Drawing.Point(10, 56);
-            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label23.Location = new System.Drawing.Point(13, 69);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(212, 23);
+            this.label23.Size = new System.Drawing.Size(281, 30);
             this.label23.TabIndex = 23;
             this.label23.Text = "Allowcate Tasks More Efficiently";
             // 
@@ -915,10 +892,9 @@
             this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label24.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label24.Location = new System.Drawing.Point(10, 74);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Location = new System.Drawing.Point(13, 91);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(184, 23);
+            this.label24.Size = new System.Drawing.Size(241, 30);
             this.label24.TabIndex = 24;
             this.label24.Text = "Which Reduces CPU Usage";
             // 
@@ -926,9 +902,10 @@
             // 
             this.guna2Separator6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.guna2Separator6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2Separator6.Location = new System.Drawing.Point(14, 95);
+            this.guna2Separator6.Location = new System.Drawing.Point(19, 117);
+            this.guna2Separator6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Separator6.Name = "guna2Separator6";
-            this.guna2Separator6.Size = new System.Drawing.Size(200, 10);
+            this.guna2Separator6.Size = new System.Drawing.Size(267, 12);
             this.guna2Separator6.TabIndex = 20;
             // 
             // guna2ToggleSwitch4
@@ -940,9 +917,10 @@
             this.guna2ToggleSwitch4.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch4.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch4.Location = new System.Drawing.Point(178, 109);
+            this.guna2ToggleSwitch4.Location = new System.Drawing.Point(237, 134);
+            this.guna2ToggleSwitch4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ToggleSwitch4.Name = "guna2ToggleSwitch4";
-            this.guna2ToggleSwitch4.Size = new System.Drawing.Size(35, 20);
+            this.guna2ToggleSwitch4.Size = new System.Drawing.Size(47, 25);
             this.guna2ToggleSwitch4.TabIndex = 19;
             this.guna2ToggleSwitch4.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2ToggleSwitch4.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -962,12 +940,11 @@
             this.guna2Panel2.Controls.Add(this.guna2ToggleSwitch3);
             this.guna2Panel2.Controls.Add(this.label11);
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(535, 25);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel2.Location = new System.Drawing.Point(713, 31);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(232, 141);
+            this.guna2Panel2.Size = new System.Drawing.Size(309, 174);
             this.guna2Panel2.TabIndex = 2;
-            //this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
             // label9
             // 
@@ -975,10 +952,9 @@
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label9.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label9.Location = new System.Drawing.Point(10, 39);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(13, 48);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(217, 23);
+            this.label9.Size = new System.Drawing.Size(288, 30);
             this.label9.TabIndex = 22;
             this.label9.Text = "Adjusting Memory Management";
             // 
@@ -988,10 +964,9 @@
             this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label10.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(17, 11);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(23, 14);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(168, 30);
+            this.label10.Size = new System.Drawing.Size(217, 39);
             this.label10.TabIndex = 21;
             this.label10.Text = "Optimize Memory";
             // 
@@ -1001,10 +976,9 @@
             this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label12.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label12.Location = new System.Drawing.Point(10, 74);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(13, 91);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(77, 23);
+            this.label12.Size = new System.Drawing.Size(101, 30);
             this.label12.TabIndex = 24;
             this.label12.Text = "Resources";
             // 
@@ -1012,9 +986,10 @@
             // 
             this.guna2Separator3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.guna2Separator3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.guna2Separator3.Location = new System.Drawing.Point(14, 95);
+            this.guna2Separator3.Location = new System.Drawing.Point(19, 117);
+            this.guna2Separator3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Separator3.Name = "guna2Separator3";
-            this.guna2Separator3.Size = new System.Drawing.Size(200, 10);
+            this.guna2Separator3.Size = new System.Drawing.Size(267, 12);
             this.guna2Separator3.TabIndex = 20;
             // 
             // guna2ToggleSwitch3
@@ -1026,9 +1001,10 @@
             this.guna2ToggleSwitch3.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch3.CheckedState.InnerColor = System.Drawing.Color.White;
             this.guna2ToggleSwitch3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ToggleSwitch3.Location = new System.Drawing.Point(178, 109);
+            this.guna2ToggleSwitch3.Location = new System.Drawing.Point(237, 134);
+            this.guna2ToggleSwitch3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ToggleSwitch3.Name = "guna2ToggleSwitch3";
-            this.guna2ToggleSwitch3.Size = new System.Drawing.Size(35, 20);
+            this.guna2ToggleSwitch3.Size = new System.Drawing.Size(47, 25);
             this.guna2ToggleSwitch3.TabIndex = 19;
             this.guna2ToggleSwitch3.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2ToggleSwitch3.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -1042,25 +1018,24 @@
             this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.label11.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
-            this.label11.Location = new System.Drawing.Point(10, 56);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Location = new System.Drawing.Point(13, 69);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(196, 23);
+            this.label11.Size = new System.Drawing.Size(265, 30);
             this.label11.TabIndex = 23;
             this.label11.Text = "Will Ensure For Efficient Use of";
             // 
             // TweaksPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
             this.Controls.Add(this.TweaksBackPanel);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MaximumSize = new System.Drawing.Size(817, 537);
-            this.MinimumSize = new System.Drawing.Size(817, 537);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximumSize = new System.Drawing.Size(1089, 661);
+            this.MinimumSize = new System.Drawing.Size(1089, 661);
             this.Name = "TweaksPanel";
-            this.Size = new System.Drawing.Size(817, 537);
+            this.Size = new System.Drawing.Size(1089, 661);
             this.TweaksBackPanel.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();

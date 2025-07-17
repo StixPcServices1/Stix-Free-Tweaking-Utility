@@ -51,5 +51,10 @@ namespace Stix.Design.User_Controls
         {
             OpenUrl("https://x.com/StixTweaks");
         }
+
+        private void guna2PictureBox6_Click(object sender, EventArgs e)
+        {
+            OpenUrl("https://x.com/StixTweaks");
+        }
     }
 }

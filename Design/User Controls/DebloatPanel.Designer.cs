@@ -69,6 +69,13 @@
             this.guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2ToggleSwitch3 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.label11 = new System.Windows.Forms.Label();
+            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.guna2Separator7 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2ToggleSwitch7 = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.label26 = new System.Windows.Forms.Label();
             this.DebloatBackPanel.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
@@ -76,6 +83,7 @@
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
+            this.guna2Panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // DebloatBackPanel
@@ -84,6 +92,7 @@
             this.DebloatBackPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
             this.DebloatBackPanel.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.DebloatBackPanel.BorderRadius = 4;
+            this.DebloatBackPanel.Controls.Add(this.guna2Panel7);
             this.DebloatBackPanel.Controls.Add(this.guna2Panel1);
             this.DebloatBackPanel.Controls.Add(this.guna2Panel5);
             this.DebloatBackPanel.Controls.Add(this.guna2Panel3);
@@ -657,6 +666,104 @@
             this.label11.TabIndex = 23;
             this.label11.Text = "Technology For Devices to";
             // 
+            // guna2Panel7
+            // 
+            this.guna2Panel7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.guna2Panel7.BorderRadius = 4;
+            this.guna2Panel7.BorderThickness = 1;
+            this.guna2Panel7.Controls.Add(this.label26);
+            this.guna2Panel7.Controls.Add(this.label8);
+            this.guna2Panel7.Controls.Add(this.label24);
+            this.guna2Panel7.Controls.Add(this.label25);
+            this.guna2Panel7.Controls.Add(this.guna2Separator7);
+            this.guna2Panel7.Controls.Add(this.guna2ToggleSwitch7);
+            this.guna2Panel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.guna2Panel7.Location = new System.Drawing.Point(41, 338);
+            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel7.Name = "guna2Panel7";
+            this.guna2Panel7.Size = new System.Drawing.Size(232, 141);
+            this.guna2Panel7.TabIndex = 22;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.label8.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
+            this.label8.Location = new System.Drawing.Point(10, 39);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(221, 23);
+            this.label8.TabIndex = 22;
+            this.label8.Text = "Windows Telemetry is something";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.label24.Font = new System.Drawing.Font("Poppins", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.White;
+            this.label24.Location = new System.Drawing.Point(17, 11);
+            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(170, 30);
+            this.label24.TabIndex = 21;
+            this.label24.Text = "Disable Telemetry";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.label25.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
+            this.label25.Location = new System.Drawing.Point(10, 56);
+            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(218, 23);
+            this.label25.TabIndex = 23;
+            this.label25.Text = "that tracks you and what you do";
+            // 
+            // guna2Separator7
+            // 
+            this.guna2Separator7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.guna2Separator7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
+            this.guna2Separator7.Location = new System.Drawing.Point(14, 95);
+            this.guna2Separator7.Name = "guna2Separator7";
+            this.guna2Separator7.Size = new System.Drawing.Size(200, 10);
+            this.guna2Separator7.TabIndex = 20;
+            // 
+            // guna2ToggleSwitch7
+            // 
+            this.guna2ToggleSwitch7.Animated = true;
+            this.guna2ToggleSwitch7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.guna2ToggleSwitch7.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ToggleSwitch7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ToggleSwitch7.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.guna2ToggleSwitch7.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.guna2ToggleSwitch7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2ToggleSwitch7.Location = new System.Drawing.Point(178, 109);
+            this.guna2ToggleSwitch7.Name = "guna2ToggleSwitch7";
+            this.guna2ToggleSwitch7.Size = new System.Drawing.Size(35, 20);
+            this.guna2ToggleSwitch7.TabIndex = 19;
+            this.guna2ToggleSwitch7.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2ToggleSwitch7.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2ToggleSwitch7.UncheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.guna2ToggleSwitch7.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.guna2ToggleSwitch7.CheckedChanged += new System.EventHandler(this.guna2ToggleSwitch7_CheckedChanged);
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.label26.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(120)))), ((int)(((byte)(120)))));
+            this.label26.Location = new System.Drawing.Point(9, 74);
+            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(211, 23);
+            this.label26.TabIndex = 24;
+            this.label26.Text = "and reports it back to Microsoft";
+            // 
             // DebloatPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -680,6 +787,8 @@
             this.guna2Panel6.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            this.guna2Panel7.ResumeLayout(false);
+            this.guna2Panel7.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -727,5 +836,12 @@
         private Guna.UI2.WinForms.Guna2Separator guna2Separator3;
         private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch3;
         private System.Windows.Forms.Label label11;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator7;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch guna2ToggleSwitch7;
+        private System.Windows.Forms.Label label26;
     }
 }

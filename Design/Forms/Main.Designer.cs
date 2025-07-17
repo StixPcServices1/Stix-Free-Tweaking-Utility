@@ -87,9 +87,9 @@
             this.label2.Location = new System.Drawing.Point(39, 10);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 28);
+            this.label2.Size = new System.Drawing.Size(168, 28);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Stix Free Utility V3.0";
+            this.label2.Text = "Stix Free Utility V3.1";
             // 
             // guna2PictureBox1
             // 

@@ -13,7 +13,7 @@ namespace Stix
 {
     internal static class Program
     {
-        private static readonly DiscordRpcClient client = new DiscordRpcClient("1322068883418517535");
+        private static readonly DiscordRpcClient client = new DiscordRpcClient("1395436773487939694");
 
         static void Main()
         {
@@ -36,7 +36,7 @@ namespace Stix
             var presence = new RichPresence()
             {
                 State = " On The Market",
-                Details = "Using The Best Pc Optimizer",
+                Details = "Using The Best Free Pc Optimizer",
                 Assets = new Assets()
                 {
                     LargeImageKey = "tutorial",
@@ -46,8 +46,8 @@ namespace Stix
                 {
                 new Button()
                 {
-                    Label = "Buy Now",
-                    Url = "https://www.stixtweaks.com"
+                    Label = "Download Now",
+                    Url = "https://stixtweaks.com/pages/stix-free-tweaking-utility"
                 }
                 }
             };
